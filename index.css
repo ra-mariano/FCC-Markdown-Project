@@ -1,6 +1,6 @@
 #header {
   min-height: 70px;
-  display: inline-block;
+  display: block;
   background-color: rgba(14, 248, 53, 0.685);
   text-align: center;
   margin: auto;
