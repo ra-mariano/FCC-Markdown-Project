@@ -44,7 +44,6 @@ class Editor extends React.Component {
     super(props);
 
 
-
     this.state = {
       input: defaultText
 
