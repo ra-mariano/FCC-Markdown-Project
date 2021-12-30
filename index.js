@@ -63,7 +63,7 @@ class Editor extends React.Component {
     this.setState({
       input: ''
     })
-    document.getElementById("editor").innerHTML = "jhg"
+    document.getElementById("editor").value = "//Delete me and enter your text here"
   };
 
 
@@ -80,7 +80,7 @@ class Editor extends React.Component {
         
       
       <textarea id="editor"
-      onChange={this.handleChange}>{this.state.input}</textarea> 
+      onChange={this.handleChange}>{defaultText}</textarea> 
    
      
      <div id="preview" dangerouslySetInnerHTML={{
