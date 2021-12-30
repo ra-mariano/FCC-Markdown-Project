@@ -74,8 +74,9 @@ class Editor extends React.Component {
 
     return (
       <div>
+        <div id="headerParent">
       <h1 id="header">MARKDOWN PREVIEWER</h1>
-
+</div>
       <div id="container">
         
       
@@ -89,7 +90,9 @@ class Editor extends React.Component {
      />
   
     </div>
+    <div id="buttonParent">
     <button id="clearButton" onClick={this.handleClick}>CLEAR TEXT</button>
+    </div>
     </div>
   
       );
